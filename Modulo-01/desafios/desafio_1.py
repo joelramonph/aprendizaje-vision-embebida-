@@ -9,7 +9,14 @@ if not cap.isOpened():
 
 while True:
     ret, frame = cap.read()
-    cv2.putText(frame, "En vivo", (10, 50), cv2.FONT_HERSHEY_SIMPLEX,1, (0, 255, 0), 2, cv2.LINE_AA)
+    text = "En vivo"
+    position = (10, 50)
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    font_scale = 1
+    font_color = (0, 255, 0)
+    thickness = 2
+    
+    cv2.putText(frame, text, position, font, font_scale, font_color, thickness, cv2.LINE_AA)
     frameGris = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     if not ret:
