@@ -1,4 +1,4 @@
-Mi Viaje de Aprendizaje: Visión por Computadora Embebida
+## Mi Viaje de Aprendizaje: Visión por Computadora Embebida
 ¡Bienvenido a mi repositorio! Este es un diario público de mi proceso de aprendizaje en el fascinante mundo de la Visión por Computadora (CV) y el Machine Learning aplicado a sistemas embebidos (TinyML).
 
 Este proyecto es guiado por un mentor basado en IA y sirve como una bitácora para documentar cada módulo, los conceptos teóricos aprendidos y los proyectos prácticos desarrollados.
